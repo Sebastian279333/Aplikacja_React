@@ -4,9 +4,15 @@
     width: 350px;
     border-radius: 0.5rem;
 }
+.actions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 .actions > button {
-    background-color: yellowgreen;
+    background-color: blue;
     color: white;
     border-radius: 0.25 rem;
-    border: 3px solid blue;
+    border: 3px solid yellowgreen;
+    padding: 0.25rem 1rem 0.25rem 1rem;
 }
