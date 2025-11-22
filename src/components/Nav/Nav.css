@@ -1,0 +1,28 @@
+nav {
+  width: 100vw;
+  height: 60px;
+  background-color: coral;
+  padding: 0.5rem;
+
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+
+  display: flex;
+  flex: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.text-yellow {
+  border-bottom: 3px solid blue;
+}
+.font-bold {
+  font-weight: 800px;
+}
+.text-grey {
+  opacity: 90%;
+}
+.links > a {
+  text-decoration: none !important;
+}
